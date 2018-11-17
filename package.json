@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "browserslist": [
+    "> 1%"
+  ],
   "scripts": {
-    "start": "babel-node src"
+    "start": "babel-node src",
+    "test": "eslint src"
   },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "flow-bin": "^0.86.0",
+    "husky": "^1.1.4",
+    "jest": "^23.6.0"
   }
 }
